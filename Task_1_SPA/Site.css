@@ -1,0 +1,191 @@
+.header{
+    margin-right:auto; margin-top:0; height:auto; margin-bottom: 30px;
+    position: fixed;
+    
+}
+
+
+ul {
+    text-transform:uppercase;
+    display: inline;
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    
+  }
+
+  ul li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    margin-right: -5px;
+    position: relative;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  ul li:hover {
+    background: rgb(54, 156, 224);
+    color: white;
+    }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.text-center{
+    text-align: center;
+    
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    transition: all 5s;
+    background-color: transparent;
+}
+
+.itemactive{
+    background-attachment: fixed;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .backimg{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
+#features{
+    margin-top: 5px;
+    background-color:rgb(21, 38, 68);
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    columns: 2;
+}
+h1{
+    font-weight: solid bold 5px;
+}
+
+#about{
+    color:white;
+    background-color:rgb(36, 128, 165);
+    text-align: center;
+    height: 120px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+#orders{
+    text-align: center;
+    background-color: snow;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#order{
+    padding-top: 2%;
+    columns: 3;
+    text-align: center;
+    
+}
+#contact{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.contact{
+    height: 450px;
+    width: 450px;
+    box-shadow: 10px 10px 10px aliceblue;
+    columns: 2;
+}
+input[type=text]{
+    width: 100%;
+    color: #555;
+    background: 0 0;
+    outline: 0;
+    font-size: 1em;
+    padding: .8em 1em;
+    margin-bottom: 5px;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-family: Yantramanav,sans-serif;
+    border-bottom: 1px solid #ddd!important;
+    border: none;
+}
+
+button{
+    
+    background-color: tomato;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.butt{
+    padding-left: 50px;
+}
+
+fieldset{
+    border: none;
+    
+    
+}
+.msg{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.backimg{
+    background-size: 100%;
+    background-attachment: fixed;
+    /* position: absolute; */
+}
+
+.contimg{
+padding-left: 200px;
+   background-position:right;
+   background-size: auto;
+}
+.contact{
+    columns: 2;
+}
+.address{
+    padding-top: 140px;
+    padding-left: 200px;
+}
